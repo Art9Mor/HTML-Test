@@ -11,4 +11,8 @@ span {
 },
 #deus {
     color: orange;
+};
+.page-header {
+    color: violet;
+    front-size: 30px;
 }
