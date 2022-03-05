@@ -2,10 +2,13 @@ p {
     color: red;
     front-size: 20px;
 },
-hr {
-    color: blue;
-    front-size: 26px;
+td {
+    color: purple;
 },
-thead {
+span {
     color: green;
+    front-size: 28px;
+},
+#deus {
+    color: orange;
 }
