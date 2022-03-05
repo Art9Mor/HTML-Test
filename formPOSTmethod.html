@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>POST form</title>
+</head>
+<body>
+
+<p><b>Registration</b></p>
+
+<form action="/address.php" method="post">
+    <label for="clientFirstName">Enter your first name</label>
+    <input type="text" id="clientFirstName" name="clientFirstName">
+    <br>
+    <br>
+    <label for="clientLastName">Enter your last name</label>
+    <input type="text" id="clientLastName" name="clientLastName">
+    <br>
+    <br>
+    <label>Your age</label>
+    <input type="date" datafld="date" name="date">
+    <br>
+    <br>
+    <label>Your gender</label>
+    <input checked type="radio" name="gender" value="rad1">Male
+    <input type="radio" name="gender" value="rad2">Female
+    <br>
+    <br>
+    <label>Your continent</label>
+    <select>
+        <option>None</option>
+        <option>Eurasia</option>
+        <option>Africa</option>
+        <option>North America</option>
+        <option>South America</option>
+        <option>Australia</option>
+        <option>Antarctica</option>
+    </select>
+    <br>
+    <br>
+    <select size="3" multiple name="language[]">
+        <option disabled value="Language proficiency">Language proficiency</option>
+        <option value="Russian">Russian</option>
+        <option value="English">English</option>
+        <option value="German">German</option>
+        <option value="Latin">Latin</option>
+        <option value="Greek">Greek</option>
+        <option value="Sumerian">Sumerian</option>
+        <option value="Another language">Another language</option>
+    </select>
+    <br>
+    <br>
+    <label>Your preference in practice
+        <input type="checkbox" name="Preference1" id="check1" value="check1">Necromancy
+    </label>
+    <label>
+        <input type="checkbox" name="Preference2" id="check2" value="check2">Demonlogy
+    </label>
+    <label>
+        <input type="checkbox" name="Preference3" id="check3" value="check3">Curse
+    </label>
+    <label>
+        <input type="checkbox" name="Preference4" id="check4" value="check4">Wicca
+    </label>
+    <label>
+        <input type="checkbox" name="Preference5" id="check5" value="check5">Voodoo
+    </label>
+    <br>
+    <br>
+    <textarea rows="10" cols="50" name="textField" required>Few words bout yourself</textarea>
+    <br>
+    <br>
+    <button type="submit">SEND</button>
+    <hr/>
+    <a target="_blank" href="https://github.com/Art9Mor">Libra Maleficarum</a>
+</form>
+</body>
+</html>
