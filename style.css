@@ -1,0 +1,11 @@
+p {
+    color: red;
+    front-size: 20px;
+},
+hr {
+    color: blue;
+    front-size: 26px;
+},
+thead {
+    color: green;
+}
