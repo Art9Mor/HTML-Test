@@ -2,17 +2,20 @@ p {
     color: red;
     font-size: 20px;
 },
+
 td {
     color: purple;
 },
+
 span {
     color: green;
     font-size: 28px;
 },
+
 #deus {
     color: orange;
 };
+
 .page-header {
     color: violet;
-    font-size: 30px;
 }
